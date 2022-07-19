@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta property="og:description" content="Alpha Ed/tech - Módulo 07 - JavaScript - Parte 17" />
+    <meta property="og:url" content="https://rogeriokotsubo.github.io/js-mod-17/" />
+    <meta property="og:determiner" content="a" />
+    <meta property="og:locale" content="pt_BR" /> 
+    <title>JS - Modulo 07 - Parte 17</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav id="menu">
+          <a class="a-menu" href="./index.html">Exercício 1</a>
+          <a class="a-menu" href="./page2.html">Exercício 2</a>
+      </nav>
+    </header>
+
+    <!-- CORPO DA PÁGINA -->
+    <main id="exercise2">
+      <section class="exercise">
+        <h1>Previsão do Tempo</h1>
+        <div class="ctn-input">
+          <form id="frm-inputs"> 
+            <div id="ctn-uf">
+              <label for="lst-uf">Selecione a UF:</label>
+              <select id="sel-uf">
+              </select>   
+            </div>  
+            <div id="ctn-city">
+              <label for="lst-city">Selecione o Município:</label>
+              <select id="sel-city">
+              </select>   
+            </div>  
+             <div id="ctn-fetch">
+              <p id="msg">&nbsp;</p>
+            </div>            
+
+          </form>
+          <div id="ctn-table"> 
+            <table id="table">
+
+            </table>
+          </div>
+        </div>
+
+      </section>    
+    </main>
+
+    <script type="module" src="page2.js"></script>
+  </body>
+
+</html>
